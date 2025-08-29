@@ -35,7 +35,7 @@
 
 ## Endpoint
 
-`https://api-1.omni-databank.com/`
+`https://api-2.omni-databank.com/`
 
 ## 定義されているリソースの仕様
 
