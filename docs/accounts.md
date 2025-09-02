@@ -212,7 +212,7 @@
 | 項目 | タイプ | 説明 | 備考 |
 |-----|-------|------|-----|
 | `accountId` | number | アカウントID |  |
-| `serviceConsumerId` | number | サービスコンシューマーID | `3` 固定 |
+| `serviceConsumerId` | number | サービスコンシューマーID | `1` 固定 |
 | `ownerId` | number | オーナーID |  |
 | `label` | string | アカウント名 |  |
 | `isAgency` | boolean | 代理店フラグ |  |
