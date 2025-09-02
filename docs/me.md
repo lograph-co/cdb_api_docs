@@ -146,7 +146,7 @@
 | `userId` | number | ユーザーID |  |
 | `email` | string | メールアドレス |  |
 | `label` | string | ユーザー名 |  |
-| `role` | number | ロール | `1` : システム管理者<br>`2` : 管理者<br>`3` : マネージャー<br>`8` : クライアント<br`32` : ゲスト |
+| `role` | number | ロール | `1` : システム管理者<br>`2` : 管理者<br>`3` : マネージャー<br>`8` : クライアント<br>`32` : ゲスト |
 | `createdAt` | date | 作成日時 |  |
 | `isAgent` | boolean | 代理店フラグ |  |
 
