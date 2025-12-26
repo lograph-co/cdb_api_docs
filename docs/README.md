@@ -51,4 +51,5 @@
 | [`/trackingNumbers`](trackingNumbers?id=trackingnumbers-計測番号) | 計測番号 |
 | [`/audiences/web`](audiences-web?id=audiencesweb-ウェブチャネルの訪問者ログ) | ウェブチャネルの訪問者ログ |
 | [`/behaviors/phone/calls`](behaviors-phone-calls?id=behaviorsphonecalls-入電ログ) | 入電ログ |
+| [`/summaryLogs/behaviors/phone/calls`](/summaryLogs-behaviors-phone-calls?id=summarylogsbehaviorsphonecalls-入電サマリログ) | 入電サマリログ |
 | [`/count/trackingSessions`](count-trackingSessions?id=counttrackingsessions-計測セッション) | 計測セッション |
