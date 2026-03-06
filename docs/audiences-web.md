@@ -119,8 +119,8 @@
 | 項目 | タイプ | 説明 | パターン/列挙型 | 初期値 | 必須 |
 |------|:------:|------|:--------------:|:------:|:---:|
 | `campaignId` | string / integer | キャンペーンID | `^[0-9]+` | | * |
-| `beginTimestamp` | string / integer | 取得対象範囲の開始日時Timestamp | `^[0-9]+` | | * |
-| `endTimestamp` | string / integer | 取得対象範囲の終了日時Timestamp | `^[0-9]+` | | * |
+| `beginTimestamp` | string / integer | 取得対象範囲の開始日時Timestamp(UTC) | `^[0-9]+` | | * |
+| `endTimestamp` | string / integer | 取得対象範囲の終了日時Timestamp(UTC) | `^[0-9]+` | | * |
 | `page` | string / integer / null | 取得するページ番号 | `^[0-9]+` | `1` | |
 | `limit` | string / integer / null | 1ページあたりの取得件数 | `^[0-9]+` | `100` | |
 | `sort` | string / null | ソート順 | `desc`, `asc` | `desc` | |
