@@ -92,6 +92,19 @@
 }
 ```
 
+#### リクエスト項目
+
+| 項目 | タイプ | 説明 | パターン/列挙型 | 初期値 | 必須 |
+| -------------- | :-------------: | --------------------------------------------------- | :--------------: | :---------: | :------: |
+| `campaignId` | string | キャンペーンID | `^[0-9]+` | | * |
+| `observersId` | string | 観測点ID | `^[0-9,]+` | | |
+| `beginTimestamp` | string | 取得開始日時の Timestamp(UTC) | `^[0-9]+` | | * |
+| `endTimestamp` | string | 取得終了日時の Timestamp(UTC) | `^[0-9]+` | | * |
+| `page` | string / null | 取得するページ | `^[0-9]+` | `1` | |
+| `limit` | string / null | 1ページあたりの件数 | `^[0-9]+` | `100` | |
+| `sort` | string / null | ソート順 | `desc`, `asc` | `desc` | |
+| `sortBy` | string | ソート対象 | | `createdAt` | |
+
 #### レスポンスの JSON-Schema
 
 ```json
