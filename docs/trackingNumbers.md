@@ -137,6 +137,19 @@
 	}
 }
 ```
+#### リクエスト項目
+
+
+| 項目 | タイプ | 説明 | パターン/列挙型 |
+|------|:------:|------|:--------------:|
+| `trackingNumberId` | string / number / null | 計測番号ID | `^[0-9]+$` |
+| `accountId` | string / number / null | アカウントID | `^[0-9]+$` |
+| `campaignId` | string / number / null | キャンペーンID | `^[0-9]+$` |
+| `observerId` | string / number / null | 観測点ID | `^[0-9]+$` |
+| `isBinding` | string / number / null | 束縛有無 | `^[01]$` |
+| `phoneNumber` | string / null | 電話番号 | `^[0-9]+$` |
+| `page` | string / number / null | 取得するページ番号 | `^[0-9]+$` |
+| `limit` | string / number / null | 1ページあたりの取得件数 | `^[0-9]+$` |
 
 #### レスポンスの JSON-Schema
 
