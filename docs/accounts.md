@@ -94,6 +94,15 @@
 }
 ```
 
+#### リクエスト項目
+
+| 項目 | タイプ | 説明 | パターン/列挙型 | 初期値 |
+|------|:------:|------|:--------------:|:------:|
+| `accountId` | string / null | アカウントID | `^[0-9]+$` | |
+| `relationshipTypes` | string / null | リレーションシップタイプ | | `owner,belongs` |
+| `page` | string / null | 取得するページ番号 | `^[0-9]+$` | |
+| `limit` | string / null | 1ページあたりの取得件数 | `^[0-9]+$` | |
+
 #### レスポンスの JSON-Schema
 
 ```json

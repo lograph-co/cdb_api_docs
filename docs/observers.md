@@ -102,6 +102,15 @@
 }
 ```
 
+#### リクエスト項目
+
+| 項目 | タイプ | 説明 | パターン/列挙型 |
+|------|:------:|------|:--------------:|
+| `observerId` | string / number / null | 観測点ID | `^[0-9]+$` |
+| `campaignId` | string / number / null | キャンペーンID | `^[0-9]+$` |
+| `page` | string / number / null | 取得するページ番号 | `^[0-9]+$` |
+| `limit` | string / number / null | 1ページあたりの取得件数 | `^[0-9]+$` |
+
 #### レスポンスの JSON-Schema
 
 ```json
