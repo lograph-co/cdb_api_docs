@@ -1,4 +1,5 @@
 ![logo](docs/assets/logo.png)
+
 # コールデータバンク API Documents
 
 ## what
@@ -9,7 +10,7 @@
 
 * node/npm
 * [docsify](https://yamachan.github.io/docsify-docs-ja/#/)
-    * `npm i docsify-cli -g`
+  * `npm i docsify-cli -g`
 
 ## how
 
@@ -38,6 +39,7 @@ docsify serve docs
 │   ├── observers.md
 │   ├── README.md
 │   ├── serviceConsumers.md
+│   ├── summaryLogs-behaviors-phone-calls.md
 │   ├── trackingNumbers.md
 │   └── users.md
 └── README.md
@@ -47,4 +49,4 @@ docsify serve docs
 
 修正後、修正したファイルを `commit` して `main` ブランチに `push` すると以下URLに `deploy` されます。
 
-https://docs.omni-databank.com/
+<https://docs.omni-databank.com/>
