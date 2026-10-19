@@ -15,7 +15,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"$id": "jsonValidate/summaryLogs/behaviors/phone/get.json",
 	"type": "object",
-	"title": "A schema for request parameters when `GET /behaviors/phone`.",
+	"title": "A schema for request parameters when `GET /summarylogs/behaviors/phone`.",
 	"required": [
 		"campaignId",
 		"beginTimestamp",
@@ -27,7 +27,7 @@
 			"type": "string",
 			"pattern": "^[0-9]+"
 		},
-		"observersId": {
+		"observerIds": {
 			"title": "Observer ID",
 			"type": "string",
 			"pattern": "^[0-9,]+"
@@ -97,7 +97,7 @@
 | 項目 | タイプ | 説明 | パターン/列挙型 | 必須 |
 |------|:------:|------|:--------------:|:---:|
 | `campaignId` | string | キャンペーンID | `^[0-9]+` | * |
-| `observersId` | string | 観測点ID | `^[0-9,]+` | |
+| `observerIds` | string | 観測点ID | `^[0-9,]+` | |
 | `beginTimestamp` | string | 取得対象範囲の開始日時Timestamp(UTC) | `^[0-9]+` | * |
 | `endTimestamp` | string | 取得対象範囲の終了日時Timestamp(UTC) | `^[0-9]+` | * |
 | `page` | string / null | 取得するページ番号 | `^[0-9]+` | |
@@ -112,7 +112,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"$id": "jsonSchema/summaryLogs/behaviors/phone/get.json",
 	"type": "object",
-	"title": "A schema for response body when request `GET /behaviors/phone/calls`.",
+	"title": "A schema for response body when request `GET /summarylogs/behaviors/phone/calls`.",
 	"required": [
 		"count",
 		"total",
